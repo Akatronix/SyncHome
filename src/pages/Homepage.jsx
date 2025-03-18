@@ -44,7 +44,7 @@ const Homepage = () => {
       "__v": 0
     }
   ]
-    ],
+    ,
   ]);
   const [error, setError] = useState("");
   const navigate = useNavigate();
