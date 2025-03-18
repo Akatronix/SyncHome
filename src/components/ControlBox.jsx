@@ -14,7 +14,7 @@ import Timmer from "./Timmer";
 const ControlBox = ({ item, uid }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const names = ["Light", "Tv", "Main Switch", "Door"];
+  const names = ["Light", "Main Switch", "Door"];
 
   const handleControl = () => {
     setIsLoading(true);
@@ -55,7 +55,7 @@ const ControlBox = ({ item, uid }) => {
                   : " bg-[#18181b] hover:bg-[#27272b]"
               } hover:cursor-pointer text-white`}
             >
-              {uid === 3
+              {uid === 2
                 ? item.current === "ON"
                   ? "OPEN"
                   : "CLOSED"
