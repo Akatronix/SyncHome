@@ -11,49 +11,39 @@ const Homepage = () => {
   const [control, setControl] = useState([
     [
       {
-        _id: "67d4adea225dc98d78fae180",
-        hour: "0",
-        second: "0",
-        mins: "0",
-        current: "OFF",
-        placeholder: "OFF",
-        createdAt: "2025-03-14T22:30:02.980Z",
-        updatedAt: "2025-03-14T23:39:07.555Z",
-        __v: 0,
-      },
-      {
-        _id: "67d4ae08283cfcc21015db7c",
-        hour: "0",
-        second: "0",
-        mins: "0",
-        current: "OFF",
-        placeholder: "0",
-        createdAt: "2025-03-14T22:30:32.794Z",
-        updatedAt: "2025-03-14T22:30:32.794Z",
-        __v: 0,
-      },
-      {
-        _id: "67d4ae10283cfcc21015db7f",
-        hour: "0",
-        second: "0",
-        mins: "0",
-        current: "OFF",
-        placeholder: "OFF",
-        createdAt: "2025-03-14T22:30:40.653Z",
-        updatedAt: "2025-03-14T22:30:40.653Z",
-        __v: 0,
-      },
-      {
-        _id: "67d4ae11283cfcc21015db82",
-        hour: "0",
-        second: "0",
-        mins: "0",
-        current: "OFF",
-        placeholder: "OFF",
-        createdAt: "2025-03-14T22:30:41.843Z",
-        updatedAt: "2025-03-14T22:30:41.843Z",
-        __v: 0,
-      },
+      "_id": "67d9bfdf28f3b0912ba7c766",
+      "hour": "100",
+      "second": "35",
+      "mins": "10",
+      "current": "ON",
+      "placeholder": "0",
+      "createdAt": "2025-03-18T18:47:59.946Z",
+      "updatedAt": "2025-03-18T19:11:18.001Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9c00228f3b0912ba7c769",
+      "hour": "100",
+      "second": "35",
+      "mins": "10",
+      "current": "ON",
+      "placeholder": "0",
+      "createdAt": "2025-03-18T18:48:34.671Z",
+      "updatedAt": "2025-03-18T19:11:13.176Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9c00428f3b0912ba7c76c",
+      "hour": "100",
+      "second": "35",
+      "mins": "10",
+      "current": "ON",
+      "placeholder": "0",
+      "createdAt": "2025-03-18T18:48:36.843Z",
+      "updatedAt": "2025-03-18T19:11:15.583Z",
+      "__v": 0
+    }
+  ]
     ],
   ]);
   const [error, setError] = useState("");
