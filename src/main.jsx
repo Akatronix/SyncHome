@@ -8,5 +8,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
     <Toaster />
+{/*     <P>welcome</P> */}
   </StrictMode>
 );
