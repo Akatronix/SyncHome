@@ -16,7 +16,7 @@ const SensorBox = ({ data }) => {
               <IoSunny className="text-yellow-400 text-4xl" />
             )}
 
-            <span className="text-gray-400 mt-1.5">value: {dayAndNight}</span>
+            <span className="text-gray-400 mt-1.5">value: {Number(dayAndNight) == 1 ? "0"  :  "1"}</span>
           </p>
           <p className="md:text-xl text-lg font-bold">
             {Number(dayAndNight) == 1 ? "Night" :  "Day"}
@@ -29,7 +29,7 @@ const SensorBox = ({ data }) => {
                 Number(flame) == 1 ? "text-gray-400": "text-red-500"
               } text-4xl`}
             />
-            <span className="text-gray-400 mt-1.5">value: {flame}</span>
+            <span className="text-gray-400 mt-1.5">value: {Number(flame) == 1 ? "0"  :  "1"}</span>
           </p>
           <p className="md:text-xl text-lg font-bold">
             {Number(flame) == 1 ? "No flame"  :  "Flame"}
