@@ -10,28 +10,29 @@ const SensorBox = ({ data }) => {
         <div>
           <p>
             {Number(dayAndNight) == 1 ? (
-              <IoSunny className="text-yellow-400 text-4xl" />
-            ) : (
               <BsFillCloudMoonFill className="text-zinc-400 text-4xl" />
+            ) : (
+              
+              <IoSunny className="text-yellow-400 text-4xl" />
             )}
 
             <span className="text-gray-400 mt-1.5">value: {dayAndNight}</span>
           </p>
           <p className="md:text-xl text-lg font-bold">
-            {Number(dayAndNight) == 1 ? "Day" : "Night"}
+            {Number(dayAndNight) == 1 ? "Night" :  "Day"}
           </p>
         </div>
         <div>
           <p>
             <BsFire
               className={`${
-                Number(flame) == 1 ? "text-red-500 " : "text-gray-400"
+                Number(flame) == 1 ? "text-gray-400": "text-red-500"
               } text-4xl`}
             />
             <span className="text-gray-400 mt-1.5">value: {flame}</span>
           </p>
           <p className="md:text-xl text-lg font-bold">
-            {Number(flame) == 1 ? "Flame" : "No flame"}
+            {Number(flame) == 1 ? "No flame"  :  "Flame"}
           </p>
         </div>
       </div>
